@@ -26,6 +26,7 @@ public class DiagnosticPageLocators {
 		System.out.println("hi there");
 		System.out.println("hello there");
 		System.out.println("this is a test");
+//		https://github.com/avinash2768/practo_project.git
 		List<WebElement> cities= driver.findElements(By.xpath("//ul/li/div[2]"));
 		return cities;
 	}
