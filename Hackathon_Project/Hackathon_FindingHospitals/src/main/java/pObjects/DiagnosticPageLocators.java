@@ -23,6 +23,7 @@ public class DiagnosticPageLocators {
 	public static List<WebElement> topCities(WebDriver driver)
 	{
 		System.out.println("hello");
+		System.out.println("hi there");
 		List<WebElement> cities= driver.findElements(By.xpath("//ul/li/div[2]"));
 		return cities;
 	}
