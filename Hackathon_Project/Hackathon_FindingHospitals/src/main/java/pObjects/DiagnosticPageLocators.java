@@ -25,6 +25,7 @@ public class DiagnosticPageLocators {
 		System.out.println("hello");
 		System.out.println("hi there");
 		System.out.println("hello there");
+		System.out.println("this is a test");
 		List<WebElement> cities= driver.findElements(By.xpath("//ul/li/div[2]"));
 		return cities;
 	}
